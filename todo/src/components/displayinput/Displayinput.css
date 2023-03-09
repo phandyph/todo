@@ -1,0 +1,30 @@
+.todo {
+    border-bottom: 1px solid gainsboro;
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ span {
+     margin-left: 15px;
+     margin-top: 4px;
+ }
+ 
+ .checkbox-value {
+     display: flex;
+ }
+ 
+ .checked-todo {
+   text-decoration: line-through;
+   font-style: italic;
+ }
+ 
+ .delete {
+     background-color: rgb(231, 227, 221);
+     border-radius: 32px;
+     width: 30px;
+     height: 30px;
+     line-height: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
