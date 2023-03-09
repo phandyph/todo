@@ -1,0 +1,15 @@
+.todo-nav {
+    padding: 20px;
+    margin: 20px;
+}
+
+.todo-form {
+    width: 30%;
+    margin: auto;
+}
+
+.todo-title {
+    font-weight: bold;
+    font-size: 8rem;
+    color: rgb(193, 188, 188);
+}
