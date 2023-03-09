@@ -16,9 +16,10 @@ input {
 .right {
     flex: end;
     font-size: 1.5rem;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    line-height: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    line-height: 10px;
+    border: none;
 }
 
