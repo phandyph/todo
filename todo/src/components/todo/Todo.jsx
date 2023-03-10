@@ -16,13 +16,17 @@ const Todo =() => {
             const eachTodo = {id: indexTodo, todo:todo}
             setTodo('');
             setTodos([...todos, eachTodo]);
+        }else {
+            alert('Please input your data!')
         }
+
     }
 
     // Delete task
     const onDelete = (id) => {
         var newTodos = todos.filter(todo=>todo.id !== id)
         setTodos(newTodos);
+        alert('Are you sure to delete?')
     }
 
     // Click check to check on checkbox
